@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilocss/estilos.css">
+    <title>hola</title>
+
+</head>
+<body>
+    
+  
+    
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="conversion.html">Conversiones</a></li>
+            <li><a href="serie.html">Serie Fibonacci</a></li>
+            <li><a href="factorial.html">Obtener Factorial</a></li>
+            <li><a href="comparacion.html">Mayor y menor</a></li>
+            </ul>
+    </nav>    
+            
+    <br></br>
+
+    <section>
+
+        
+
+        <div id="formulario">
+            
+
+            <p>Ingresa una medida y luego selecciona la medida de destino</p>
+
+            <br>
+            
+            <form name="form1" method="POST" action="../php/convertir.php">
+
+                <p>Valor a convertir: <input type="text" id="txtValor" name="txtValor">
+                    <select name="selmedidas">
+                        <option value="">Seleccione...</option>
+                        <option value="digito">Bit (dígito binario)</option>
+                        <option value="byte">Byte (caracter)</option>
+                        <option value="kilo">Kilobyte</option>
+                        <option value="mega">Megabyte</option>
+                        <option value="giga">Gigabyte</option>
+                        <option value="tera">Terabyte</option>
+                    </select>
+            </p> 
+            
+            <p>Convertir a la medida de: </p>
+        
+            <p>
+                <input type="radio" name="medidas" value="binario">Bit (dígito binario)
+                <br><input type="radio" name="medidas" value="bytes">Byte (caracter)
+                <br><input type="radio" name="medidas" value="kilobyte">Kilobyte
+                <br><input type="radio" name="medidas" value="megabyte">Megabyte
+                <br><input type="radio" name="medidas" value="gigabyte">Gigabyte
+                <br><input type="radio" name="medidas" value="terabyte">Terabyte
+            </P>  
+            
+            <p><input type="submit" name="btnConvertir" value="Convertir"></p>
+                
+                
+            </form>
+        </div>
+
+       
+
+    </section>
+
+    
+</body>
+</html>
