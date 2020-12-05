@@ -1,0 +1,35 @@
+#menu{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(111, 235, 193);
+}
+
+#menu li{
+    display: inline;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    float: left;    
+    padding: 5px;
+    background-color: rgb(110, 163, 231);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(23, 54, 95) ;
+    width: 258px;
+    border-radius: 5px;
+    
+}
+#menu li a:hover {
+    background-color: #2586d7;
+    
+}
+#formulario{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10px;
+}
